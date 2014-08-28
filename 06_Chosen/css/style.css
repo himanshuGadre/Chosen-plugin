@@ -28,7 +28,30 @@ select {
   -webkit-box-shadow: 0 2px 1px rgba(173,173,173,.33);
   -moz-box-shadow: 0 2px 1px rgba(173,173,173,.33);
   box-shadow: 0 2px 1px rgba(173,173,173,.33);
+  height: 35px;
 }
-.chosen-single {
- border-radius: 0;
+.chosen-container-single .chosen-single {
+  border-radius: 0;
+  background: #fff;
+  height: 35px;
+  line-height: 36px;
+}
+.chosen-container-single .chosen-single span {
+  margin-right: 0;
+}
+.chosen-container-single .chosen-single div {
+  background: #798a9c url('../images/dropArrow.png') no-repeat center center;
+  border-left: 1px solid #b4b6b8;
+  height: 35px;
+  width: 35px;
+}
+.chosen-container-active.chosen-with-drop .chosen-single div {
+  background: #798a9c url('../images/upArrow.png') no-repeat center center;
+}
+.chosen-container .chosen-results {
+  margin: 0;
+  padding: 0;
+}
+.chosen-container .chosen-results li.highlighted {
+  background: #222;
 }
