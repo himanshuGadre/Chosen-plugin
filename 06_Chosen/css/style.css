@@ -47,6 +47,15 @@ select {
 }
 .chosen-container-active.chosen-with-drop .chosen-single div {
   background: #798a9c url('../images/upArrow.png') no-repeat center center;
+  border-left: 1px solid #b4b6b8;
+}
+.chosen-container-active.chosen-with-drop .chosen-single {
+  background: #fff;
+
+}
+.chosen-container-active .chosen-single {
+  border-left: 1px solid #b4b6b8;
+  box-shadow: none;
 }
 .chosen-container .chosen-results {
   margin: 0;
@@ -54,4 +63,7 @@ select {
 }
 .chosen-container .chosen-results li.highlighted {
   background: #222;
+}
+.chosen-container.chosen-with-drop .chosen-drop {
+  border-top: 1px solid #b4b6b8;
 }
