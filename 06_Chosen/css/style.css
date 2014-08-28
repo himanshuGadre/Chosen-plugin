@@ -1,0 +1,34 @@
+/* css */
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+  dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+  article, aside, canvas, command, details, fieldset,
+  figcaption, figure, footer, group, header, hgroup, legend,
+  mark, menu, meter, nav, output, progress, section, summary,
+  time, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+.container {
+  background: #ccc;
+  padding-top: 40px;
+}
+.leftSection, .rightSection {
+  float: left;
+}
+.leftSection {
+  margin-right: 30px;
+}
+select {
+  border: 1px solid #b4b6b8;
+
+}
+.chosen-container {
+  -webkit-box-shadow: 0 2px 1px rgba(173,173,173,.33);
+  -moz-box-shadow: 0 2px 1px rgba(173,173,173,.33);
+  box-shadow: 0 2px 1px rgba(173,173,173,.33);
+}
+.chosen-single {
+ border-radius: 0;
+}
